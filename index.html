@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- font -->
+
+    <!-- icon -->
+    
+    <!-- CSS links -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+
+    <title>Hello, world!</title>
+  </head>
+  <body onload="alert('hi')" onresize="alert('resize')">
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h1 class="text-primary">Click the button to change the text</h1>
+          <button type="button" class="btn btn-outline-primary" onclick="textChange()">Click Me</button>
+          <h2 class="text-primary" id="h1">Hi</h2>
+        </div>
+        <div class="col-lg-12 mt-4">
+          <h1 class="text-info">Doubleclick the button to get time and date</h1>
+          <button type="button" class="btn btn-outline-info" ondblclick="textChange1()">Double click</button>
+          <h2 class="text-info" id="h2">Hi</h2>
+        </div>
+        <div class="col-lg-12 mt-4">
+          <h1 class="text-danger">Mouse over the button to get date</h1>
+          <button type="button" class="btn btn-outline-danger" onmouseover="textChange2()">Mouse over</button>
+          <h2 class="text-danger" id="h3">Hi</h2>
+        </div>
+        <div class="col-lg-12 mt-4">
+          <h1 class="text-danger">Mouse out the button to get year</h1>
+          <button type="button" class="btn btn-outline-danger" onmouseout="textChange3()">Mouse out</button>
+          <h2 class="text-danger" id="h4">Hi</h2>
+        </div>
+        <div class="col-lg-12 mt-4">
+          <h1 class="text-danger">click the button</h1>
+          <button type="button" class="btn btn-outline-danger" onclick="textChange4()">click</button>
+          <h2 class="text-danger" id="h5">Hi</h2>
+        </div>
+        <div class="col-lg-12 mt-4">
+          <h1 class="text-danger">click the button to change the text color</h1>
+          <button type="button" class="btn btn-outline-danger" onclick="textChange5()">click</button>
+          <h2 id="h6">Hi</h2>
+        </div>
+        <div class="col-lg-12 mt-4">
+          <h1 class="text-danger">click the button to add a border</h1>
+          <button type="button" class="btn btn-outline-danger" onclick="textChange6()">click</button>
+          <h2 id="h7">Hi</h2>
+        </div>
+        <div class="col-lg-12 mt-4">
+          <h1 class="text-danger">mouseup event</h1>
+          <button type="button" class="btn btn-outline-danger" onmouseup="textChange7()">click</button>
+          <h2 id="h8">Hi</h2>
+        </div>
+        <div class="col-lg-12 mt-4">
+          <h1 class="text-danger">Right click the button </h1>
+          <button type="button" class="btn btn-outline-danger" oncontextmenu="textChange8()">click</button>
+          <h2 id="h9">Hi</h2>
+        </div>
+        <div class="col-lg-12 mt-4">
+          <textarea class="text_field" rows="5" cols="20"></textarea>
+          <p id="text_count">this is a paragraph.</p>
+        </div>
+      </div>
+    </div>
+
+     <!-- JS links -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    
+  </body>
+</html>
